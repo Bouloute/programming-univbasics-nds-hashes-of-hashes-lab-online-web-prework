@@ -44,15 +44,15 @@ def naming_system
 
   new_hash = Hash.new
   new_hash = {
-    label: "",
+    label: "Kingdom",
     sub_category: {
-      label: "",
+      label: "Phylum",
       sub_category: {
-        label: "",
+        label: "Class",
         sub_category: {
           label: "Order",
           sub_category: {
-            label: "",
+            label: "Family",
             sub_category: {
               label: "Genus",
               sub_category: {
