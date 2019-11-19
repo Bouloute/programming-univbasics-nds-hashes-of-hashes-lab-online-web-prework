@@ -42,4 +42,29 @@ def naming_system
   # So, if we have the "Kingdom" node we should be able to "tunnel" into the
   # HoH all the way to Species!
 
+  new_hash = Hash.new
+  new_hash = {
+    label: "",
+    sub_category: {
+      label: "",
+      sub_category: {
+        label: "Order",
+        sub_category: {
+          label: "",
+          sub_category: {
+            label: "Order",
+            sub_category: {
+              label: "",
+              sub_category: {
+                label: "Species",
+                sub_category: {
+                  label: ""
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 end
