@@ -48,17 +48,17 @@ def naming_system
     sub_category: {
       label: "",
       sub_category: {
-        label: "Order",
+        label: "",
         sub_category: {
-          label: "",
+          label: "Order",
           sub_category: {
-            label: "Order",
+            label: "",
             sub_category: {
-              label: "",
+              label: "Order",
               sub_category: {
-                label: "Species",
+                label: "",
                 sub_category: {
-                  label: ""
+                  label: "Species"
                 }
               }
             }
